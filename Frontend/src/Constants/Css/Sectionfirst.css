@@ -1,0 +1,30 @@
+#firstsection {
+    width: 100vw;
+    height: 70vh;
+    background-image: url("../Images/sectionfirst.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#data {
+    position: absolute;
+}
+
+#learn {
+    padding-top: 55vh;
+    padding-left: 12vw;
+}
+
+#learn button {
+    background-color: white;
+    font-weight: bold;
+    color: red;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 1px yellow;
+    text-decoration: none;
+}
+
+#learn button:hover {
+    cursor: pointer;
+}
