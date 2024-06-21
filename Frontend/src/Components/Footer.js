@@ -15,7 +15,7 @@ export default function footer() {
                 <div id="directions">
                 <h3 id="headingfoot">Direction</h3>
                 <span id="add">NH 2 Mathura Highway, <br></br>UP 282006 </span><br></br><br></br>
-                <img id="directionimg" src={map}></img>
+                <img id="directionimg" src={map} />
                 </div>
                 <div id="leftfooter">
                     <div className='footer_contentrightlinks_title'>
@@ -23,11 +23,11 @@ export default function footer() {
                     </div>
                     <div className='footer_contentrightlinks_list'>
                         <ul>
-                            <li id="li" ><a  id="ul" href='/about'>About Us</a></li>
-                            <li id="li" ><a  id="ul" href='/contact'>Contact Us</a></li>
-                            <li id="li" ><a  id="ul" href='#'>Privacy Policy</a></li>
-                            <li id="li" ><a  id="ul" href='#'>Terms & Conditions</a></li>
-                            <li id="li" ><a  id="ul" href='#'>Sitemap</a></li>
+                            <li id="li" ><a id="ul" href='/about'>About Us</a></li>
+                            <li id="li" ><a id="ul" href='/contact'>Contact Us</a></li>
+                            <li id="li" ><a id="ul" href='#'>Privacy Policy</a></li>
+                            <li id="li" ><a id="ul" href='#'>Terms & Conditions</a></li>
+                            <li id="li" ><a id="ul" href='#'>Sitemap</a></li>
                         </ul>
                     </div>
                 </div>
@@ -45,7 +45,6 @@ export default function footer() {
                     </div>
                 </div>
                 <div id="rightfooter">
-
                     <div>
                         <span id="footbutton">Download Our Application</span><br></br><br></br>
                         <a href="https://play.google.com/store/apps?utm_source=apac_med&utm_medium=hasem&utm_content=Feb0221&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-in-1003227-med-hasem-ap-Evergreen-Feb0221-Text_Search_BKWS-BKWS%7cONSEM_kwid_43700065205026376_creativeid_535350509651_device_c&gclid=Cj0KCQiAveebBhD_ARIsAFaAvrElwkDXns3t26zEydm0q-n-_Vq8qgyHnkQ7wm3OcJkaxxGfw56kTDcaAjd_EALw_wcB&gclsrc=aw.ds"><img id="footplay" src={playstore}></img></a>
@@ -61,6 +60,6 @@ export default function footer() {
                     </div>
                 </div>
             </div>
-        </div>
-    );
+        </div>
+    );
 }
