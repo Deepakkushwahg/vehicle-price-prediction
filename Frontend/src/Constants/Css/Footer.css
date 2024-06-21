@@ -23,16 +23,16 @@
     grid-template-columns: repeat(4, 1fr);
 }
 
-#ul {
+.ul {
     color: white;
     text-decoration: none;
 }
 
-#li :hover {
+.li :hover {
     color: burlywood;
 }
 
-#li {
+.li {
     color: yellow;
 }
 
@@ -55,12 +55,12 @@
     margin-top: 25px;
 }
 
-#footplay {
+.footplay {
     width: 140px;
     height: 40px;
 }
 
-#footerlogo {
+.footerlogo {
     margin-left: 5px;
     width: 20px;
     height: 20px;
