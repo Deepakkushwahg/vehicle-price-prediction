@@ -1,6 +1,5 @@
 import React from 'react'
 import "../Constants/Css/NavBar.css"
-import { IoEllipsisVerticalOutline } from "react-icons/io5";
 import { MdOutlinePerson } from "react-icons/md";
 
 import logo from "../Constants/Images/carsonlinelogo.png"
