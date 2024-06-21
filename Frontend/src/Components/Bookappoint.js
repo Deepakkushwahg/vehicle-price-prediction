@@ -3,8 +3,6 @@ import '../Constants/Css/Bookappoint.css'
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-
-
 const startNum = 1000;
 var NextNum = startNum;
 
@@ -49,12 +47,11 @@ var NextNum = startNum;
     };
 
   return (
-    
     <>
-    <hr></hr>
+    <hr />
             <div class="Wr">
-                            <marquee behavior="" direction=""><h2>Book Appointment for Showroom visit!!</h2></marquee>
-                        </div>
+                <div className='marquee-content'><h2>Book Appointment for Showroom visit!!</h2></div>
+            </div>
             <div class="MAIN">
                 <div id="form">
                     <form onSubmit={notify}>
