@@ -1,5 +1,4 @@
 import React from 'react'
-import NavBar from './/NavBar.js'
 import Sectionfirst from './Sectionfirst.js'
 import Sectionsecond from './Sectionsecond.js'
 import Sectionthird from './Sectionthird.js'
