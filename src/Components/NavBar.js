@@ -32,7 +32,7 @@ export default function NavBar() {
         </div>
         <div id="navbar">
         <div id="nav_logo">
-            <img src={logo} ></img>
+            <img src={logo} alt='logo.png' ></img>
         </div>
         <div id="nav_callus">
             <IoIosPhonePortrait  style={{"color":"grey","font-size":"3vw"}} />
