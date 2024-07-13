@@ -52,7 +52,7 @@ export default function NavBar() {
       <a href='http://172.16.151.244:8501' id="nav-links">Price Prediction</a>
     </nav>
     <div id="mobile">
-    <a id="bar" onClick={handleClick}>
+    <span id="bar" onClick={handleClick}>
       {state ?(
         <IoMdClose style={{"color":"black","font-size":"2vw"}} />
         
@@ -60,7 +60,7 @@ export default function NavBar() {
         <IoReorderThree style={{"color":"black","font-size":"2.5vw"}} />
         
       )}
-    </a>
+    </span>
     </div>
         </div>
         </div>
