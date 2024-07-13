@@ -1,0 +1,179 @@
+:root {
+    --backgroud: rgb(39, 50, 41);
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#nav_login {
+    width: 100vw;
+    height: 6vh;
+    background-color: var(--backgroud);
+    /* display: grid;
+    /* grid-template-columns: 250px 250px 250px 250px; */
+    /* grid-template-columns: repeat(3,250px); */
+    /*grid-template-columns:1fr 1fr 1fr;
+    /*row-gap: 5px;
+    column-gap: 10px;
+    gap: 20px; */
+    display: grid;
+    justify-content: end;
+}
+
+.login_part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    width: 8vw;
+}
+
+.login_part a {
+    font-size: 1vw;
+    color: white;
+    padding: .5vh;
+    margin: .5vw;
+    font-weight: bold;
+}
+
+#navbar {
+    width: 100vw;
+    height: 12vh;
+    font-size: 1vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+#nav_logo {
+    width: 10vw;
+    display: flex;
+    justify-content: start;
+}
+
+#nav_logo img {
+    width: 12vw;
+    height: 10vh;
+}
+
+#nav_callus {
+    width: 25vw;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: .2vw;
+    align-items: center;
+    text-align: start;
+}
+
+#nav_options {
+    width: 65vw;
+    height: 8vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#nav-bar-a {
+    width: 35vw;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+/* jab display bade ho to icon show na ho */
+
+#mobile {
+    display: none;
+}
+
+.callus {
+    font-size: 1vw;
+}
+
+.phno {
+    font-size: 1.1vw;
+    font-weight: bold;
+    color: red;
+}
+
+#nav-links {
+    cursor: pointer;
+}
+
+#nav-links:hover {
+    color: red;
+}
+
+
+/* screen chote hote he chnages krna jruri he */
+
+@media screen and (max-width:720px) {
+    #nav-bar-a {
+        width: 40vw;
+        color: var(--backgroud);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        width: 100vw;
+        height: 10vh;
+        top: -300px;
+        background-color: var(--backgroud);
+        color: white;
+        padding: 1vh;
+        font-size: small;
+    }
+    #nav-a {
+        width: 40vw;
+        color: var(--backgroud);
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        gap: 2vh;
+        align-items: start;
+        position: absolute;
+        width: 20vw;
+        height: 20vh;
+        /* top: -300px; */
+        background-color: white;
+        color: rgb(29, 29, 29);
+        padding: 1vh;
+        font-size: small;
+        font-weight: bold;
+        top: 18vh;
+        /* main thing hide or show vale*/
+        border-radius: 5px;
+    }
+    #mobile {
+        display: block;
+        width: 5vw;
+    }
+    #nav_callus {
+        width: 20vw;
+        display: flex;
+        grid-template-columns: 1fr;
+        justify-content: start;
+        gap: .5vw;
+        align-items: center;
+        text-align: start;
+    }
+    .callus {
+        font-size: 2vw;
+    }
+    .phno {
+        font-size: 1.1vw;
+        color: red;
+    }
+    #nav_logo img {
+        width: 15vw;
+        height: 12vh;
+    }
+}
