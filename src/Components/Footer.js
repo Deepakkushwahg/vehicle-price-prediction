@@ -25,9 +25,9 @@ export default function footer() {
                         <ul>
                             <li className="li"><a className="ul" href='/about'>About Us</a></li>
                             <li className="li"><a className="ul" href='/contact'>Contact Us</a></li>
-                            <li className="li"><a className="ul" href='#'>Privacy Policy</a></li>
-                            <li className="li"><a className="ul" href='#'>Terms & Conditions</a></li>
-                            <li className="li"><a className="ul" href='#'>Sitemap</a></li>
+                            <li className="li"><a className="ul" href='/'>Privacy Policy</a></li>
+                            <li className="li"><a className="ul" href='/'>Terms & Conditions</a></li>
+                            <li className="li"><a className="ul" href='/'>Sitemap</a></li>
                         </ul>
                     </div>
                 </div>
